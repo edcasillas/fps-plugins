@@ -56,6 +56,13 @@ public class FootstepsPlayer : EnhancedMonoBehaviour {
 				}
 			}
 		}
+
+		if (!playerCameraRoot) {
+			playerCameraRoot = transform.FindChildWithTag("CinemachineTarget");
+			if (!playerCameraRoot) {
+				this.LogError("Player Camera Root couldn't be found!");
+			}
+		}
 	}
 
 	private void Start() {
