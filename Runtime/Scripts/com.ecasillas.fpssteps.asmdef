@@ -1,8 +1,9 @@
 {
     "name": "com.ecasillas.fpssteps",
-    "rootNamespace": "",
+    "rootNamespace": "FootstepsPlugin",
     "references": [
-        "GUID:453644240d94c4e929b3a593a6ae93d7"
+        "GUID:453644240d94c4e929b3a593a6ae93d7",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
