@@ -1,0 +1,12 @@
+{
+  "name": "com.ecasillas.fpssteps",
+  "version": "1.0.0",
+  "displayName": "Starter Assets FPS Steps Plugin",
+  "description": "A plugin to add head bob and footsteps sound effects to the Starter Assets First Person Controller",
+  "unity": "2022.1",
+  "author": {
+    "name": "Ed Casillas",
+    "email": "ed@exagames-studio.com",
+    "url": "https://edu.itch.io"
+  }
+}
