@@ -37,7 +37,6 @@ public class FootstepsPlayer : EnhancedMonoBehaviour {
 	private CharacterController characterController;
 	#endregion
 
-
 	private bool wasGrounded;
 
 	private void Awake() {
@@ -121,7 +120,6 @@ public class FootstepsPlayer : EnhancedMonoBehaviour {
 
 		PlayFootStepAudio();
 	}
-
 
 	private void PlayFootStepAudio()
 	{
